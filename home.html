@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Outfit Oasis Boutique Store</title>
+    <style>
+        .video-container {
+            text-align: center;
+            margin-top: 30px; /* Adjust the top margin as needed */
+        }
+        .video-container iframe {
+            display: inline-block;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-style: italic; /* Make the font cursive */
+        }
+        nav {
+            background-color: #444; /* Dark grey background */
+            padding: 10px 0;
+            text-align: center;
+            color: #fff; /* Text color */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+        }
+        nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+        .logo img {
+            max-width: 150px; /* Adjust the maximum width of the logo */
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px; /* Add space between content and footer */
+        }
+        footer p {
+            background-color: #444; /* Dark grey background below the "All rights reserved" line */
+            margin: 0;
+            padding: 10px 0;
+            height: 20px; /* Adjust the height to balance the appearance */
+        }
+        .contact-form {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"] {
+            width: 300px; /* Adjust the width as needed */
+            padding: 8px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        .contact-form textarea {
+            width: 300px; /* Adjust the width as needed */
+            height: 150px;
+            padding: 8px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        .contact-form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- Circular Logo -->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAa3iOJJM5AP8_EfAWIX6gKvZd-uq-cbLue3dPxZ5HLMRNAf10yUv-VxZFAwNp4KAms48&usqp=CAU" alt="Outfit Oasis Boutique Logo" style="border-radius: 50%; border: 5px solid #fff;">
+        </div>
+        <!-- Headline and Tagline -->
+        <h1 style="font-size: 24px;">Welcome to Outfit Oasis Boutique Store</h1>
+        <p style="font-style: italic;">Discover a sanctuary of style where every piece tells a story.</p>
+        <!-- Store Description -->
+        <p style="text-align: center; font-style: italic;">Welcome to Outfit Oasis, your ultimate destination for chic and curated fashion finds. Discover a sanctuary of style where every piece tells a story, and every visit promises a new adventure in fashion.</p>
+        <!-- Store Title and Search Bar -->
+        <form action="#" method="GET" style="text-align: center;">
+            <input type="text" name="search" placeholder="Search...">
+            <input type="submit" value="Search">
+        </form>
+    </header>
+    <!-- New section: Navigation Menu and Services -->
+    <section>
+        <nav>
+            <a href="home.html">Home</a>|
+            <a href="products.html">Products</a>|
+            <a href="aboutus.html">About Us</a>|
+            <a href="contactus.html">Contact Us</a>|
+        </nav>
+        
+        <div class="video-container">
+            <!-- Embedded YouTube video -->
+            <iframe width="656" height="369" src="https://www.youtube.com/embed/Q6svpu85eBE" title="Todd Snyder Spring '23 &quot;Lisbon Calling&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <!-- Audio -->
+        <h1 style="font-family: 'Roboto', sans-serif; color: black; text-align: center; margin-top: 30px;">Product Audio - About Todd Snyder</h1>
+        <audio controls style="display: block; margin: 0 auto;">
+            <source src="productaudtio.mp3.mp3">
+        </audio>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 Outfit Oasis Boutique Store. All rights reserved.
+    </footer>
+</body>
+</html>
